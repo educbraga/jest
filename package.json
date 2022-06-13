@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
     "@types/jest": "^28.1.1",
+    "babel-jest": "^28.1.1",
     "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "httpserver": "^0.3.0"
   }
 }
